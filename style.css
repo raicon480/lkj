@@ -16,7 +16,7 @@ body {
 
 .conteudo-principal{
     display:flex;
-    flex-direction: coluna;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
@@ -28,11 +28,11 @@ body {
     width: 100%;
     font-size: 32pk;
 }
-.titulo-principal span{
-    color: var(--verde)
+.titulo-principal span {
+    color: var(--verde);
 }
-.bota0{
-    font-family:"crakra petch", open-sans;
+.botao{
+    font-family:"crakra petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -46,11 +46,11 @@ body {
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
-.botao:first-child{
+.botao:first-child {
     border-radius: 40px 40px e 0;
 }
-.botoes{
-    display:block ;
+.botoes {
+    display:block;
 }
 @media screen and (min-width: 768px) {
     .botoes{
